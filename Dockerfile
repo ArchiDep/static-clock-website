@@ -3,7 +3,7 @@
 # The upstream nginx image with the site copied into the directory its default
 # configuration serves. There is nothing to build, and no step runs a command,
 # so the image builds for any architecture without emulating it.
-FROM nginx:1.29-alpine
+FROM nginx:1.30-alpine
 
 COPY index.html script.js style.css /usr/share/nginx/html/
 
