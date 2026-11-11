@@ -1,0 +1,6 @@
+# https://docs.docker.com/build/concepts/context/#dockerignore-files
+# The build reads the site's files only.
+*
+!index.html
+!script.js
+!style.css
